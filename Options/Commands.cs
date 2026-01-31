@@ -15,32 +15,32 @@ namespace AI_Studio
     {
         [Category("Commands")]
         [DisplayName("Add Summary")]
-        [Description("Add some suggestions here for Chat GPT to customize 'Add Summary' command.")]
+        [Description("Add some suggestions here for the LLM to customize 'Add Summary' command.")]
         public string AddSummary { get; set; }
 
         [Category("Commands")]
         [DisplayName("Add Comments")]
-        [Description("Add some suggestions here for Chat GPT to customize 'Add Comments' command.")]
+        [Description("Add some suggestions here for the LLM to customize 'Add Comments' command.")]
         public string AddComments { get; set; }
 
         [Category("Commands")]
         [DisplayName("Refactor")]
-        [Description("Add some suggestions here for Chat GPT to customize 'Refactor' command.")]
+        [Description("Add some suggestions here for LLM to customize 'Refactor' command.")]
         public string Refactor { get; set; }
 
         [Category("Commands")]
         [DisplayName("Explain")]
-        [Description("Add some suggestions here for Chat GPT to customize 'Explain' command.")]
+        [Description("Add some suggestions here for the LLM to customize 'Explain' command.")]
         public string Explain { get; set; }
 
         [Category("Commands")]
         [DisplayName("Code It")]
-        [Description("Add some suggestions here for Chat GPT to customize 'Code It' command.")]
+        [Description("Add some suggestions here for the LLM to customize 'Code It' command.")]
         public string CodeIt { get; set; } = "No explanation";
 
         [Category("Commands")]
         [DisplayName("Security Check")]
-        [Description("Add some suggestions here for Chat GPT to customize 'Security Check' command.")]
+        [Description("Add some suggestions here for the LLM to customize 'Security Check' command.")]
         public string SecurityCheck { get; set; }
     }
 }

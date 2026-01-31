@@ -15,7 +15,7 @@ namespace AI_Studio
     {
         [Category("General")]
         [DisplayName("API Key")]
-        [Description("AI Studio utilizes Chat GPT API, to use this extension create an API Key and add it here.")]
+        [Description("AI Studio utilizes OPENAI API from COMPASS, to use this extension create an API Key by requesting an API Key from COMPASS and add it here.")]
         [PasswordPropertyText(true)]
         public string ApiKey { get; set; }
 
